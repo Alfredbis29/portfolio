@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+header {
+  display: flex;
+  background-color: aqua;
+  justify-content: flex-end;
+}
+
+nav a div:hover {
+  border-radius: 2px;
+  background-color: whitesmoke;
+}
+
+nav a div {
+  width: 1.5rem;
+  height: 2px;
+  background-color: #000;
+}
+
+nav a div:nth-child(2) {
+  margin: 0.6rem 0;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.linkText {
+  text-align: center;
+
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  Line-height: 21px;
+}
+
+#Button a {
+  color: white;
+  text-decoration: none;
+}
+
+#Button {
+  /* justify-content: center;
+  width: 288px;
+  left: 16px;
+  position: absolute;
+  text-align: center; */
+  background: #1A2236;
+  text-align: center;
+  padding: 3px;
+}
+
+img {
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+}
+
+#project h2 {
+  /* position: absolute; */
+  /* width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 550px;
+  bottom: 500px;
+  color: #1A2236; */
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.otherPage {
+  /* display: block; */
+  /* position: absolute; */
+  width: 100%;
+  height: 156px;
+  /* top: 100%; */
+  background: #1A2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+
+.hero2 {
+
+  color: #FFFFFF;
+  font-family: Poppins;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#java button {
+  background-color: #98DEDE;
+}
+
+#border {
+  height: 50px;
+  /* top: 1032px; */
+  border: 1px solid #FFFFFF;
+  color: white;
+  text-align: center;
+  margin: 20px 92px 122px 20px;
+}
+
+#border p {
+  justify-content: center;
+}
+
+#java ul li{
+     display: inline-block;
+     background: #98DEDE; 
+     font-family: Poppins;  
+      font-weight: 300;
+      font-style:normal; 
+      font-size: 10.33px;
+      margin-right: 3%;
+      /* line-height: 8.27px; */
+}
+.btnLink{
+     border: 1px solid #FFFFFF;
+     position: absolute;
+width: 178px;
+height: 44px;
+left: 20px;
+text-align: center;
+}
+.last{
+  width: 50%;
+  border: 1px solid white;
+ text-decoration: none;
+ text-align: center;
+justify-content: center;
+}
+
